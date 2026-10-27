@@ -12,12 +12,15 @@
 ---
 
 ## Задача 2
-**Дано:** $l \perp a$, $l \perp b$, $a, b \subset \pi$, $l \not\perp c$, $c \subset \pi$.  
-**Решение:**  
-- Если $l \perp \pi$, то $l \perp \forall x \subset \pi$;  
-- $l \not\perp c \Rightarrow l \not\perp \pi$;  
-- $l \perp a$, $l \perp b$, $a, b \subset \pi$, $l \not\perp \pi \Rightarrow a \parallel b$.  
+
+Дано: $l \perp a$, $l \perp b$, $a, b, c \subset \pi$, $l \not\perp c$.  
+
+Если бы прямые $a$ и $b$ пересекались, то по признаку перпендикулярности прямой и плоскости следовало бы $l \perp \pi$. Но тогда $l$ была бы перпендикулярна любой прямой в плоскости — в том числе и $c$. Это противоречит условию $l \not\perp c$, значит, $a$ и $b$ не пересекаются.  
+
+Так как $a$ и $b$ лежат в одной плоскости и не пересекаются, они параллельны: $a \parallel b$.  
+
 **Ответ:** утверждение истинно.
+
 
 ---
 
