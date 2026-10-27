@@ -42,15 +42,16 @@
 
 ---
 
-## Задача 5
-**Дано:** $((\overline{X} \leftrightarrow \overline{Y}) \rightarrow (Y \wedge X)) \vee (X \rightarrow Y)$.  
-**Решение:**  
-- $\overline{X} \leftrightarrow \overline{Y} = X \leftrightarrow Y$;  
-- $X \leftrightarrow Y = (X \wedge Y) \vee (\overline{X} \wedge \overline{Y})$;  
-- $(X \leftrightarrow Y) \rightarrow (Y \wedge X) = \overline{(X \leftrightarrow Y)} \vee (Y \wedge X)$;  
-- $\overline{(X \leftrightarrow Y)} = (X \wedge \overline{Y}) \vee (\overline{X} \wedge Y)$;  
-- $\overline{(X \leftrightarrow Y)} \vee (Y \wedge X) = (X \wedge \overline{Y}) \vee (\overline{X} \wedge Y) \vee (X \wedge Y)$;  
-- $X \rightarrow Y = \overline{X} \vee Y$;  
-- Итоговое выражение: $((X \wedge \overline{Y}) \vee (\overline{X} \wedge Y) \vee (X \wedge Y)) \vee (\overline{X} \vee Y)$;  
-- $\overline{X} \vee Y$ покрывает все возможные комбинации значений.  
-**Ответ:** $1$.
+# Задача 5: построение таблицы истинности
+
+**Дано:** $((\overline{X} \leftrightarrow \overline{Y}) \rightarrow (Y \wedge X)) \vee (X \rightarrow Y)$
+
+| $X$ | $Y$ | $\overline{X}$ | $\overline{Y}$ | $\overline{X} \leftrightarrow \overline{Y}$ | $Y \wedge X$ | $(\overline{X} \leftrightarrow \overline{Y}) \rightarrow (Y \wedge X)$ | $X \rightarrow Y$ | $((\overline{X} \leftrightarrow \overline{Y}) \rightarrow (Y \wedge X)) \vee (X \rightarrow Y)$ |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 0   | 0   | 1   | 1   | 1               | 0              | 0                                             | 1              | 1                                                                                               |
+| 0   | 1   | 1   | 0   | 0               | 0              | 1                                             | 1              | 1                                                                                               |
+| 1   | 0   | 0   | 1   | 0               | 0              | 1                                             | 0              | 1                                                                                               |
+| 1   | 1   | 0   | 0   | 1               | 1              | 1                                             | 1              | 1                                                                                               |
+
+**Финальный ответ:** $1$ (тождественно истинно).
+
