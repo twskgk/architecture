@@ -6,6 +6,7 @@
 - $X < 2 \Rightarrow 4 < 2 \Rightarrow \text{ложь}$;
 - $X > 4 \Rightarrow 4 > 4 \Rightarrow \text{ложь}$;
 - $\text{истина} + \text{ложь} + \text{ложь} = \text{истина}$.
+
 **Ответ:** истина
 
 ---
