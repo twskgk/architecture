@@ -1,13 +1,12 @@
 # Вариант 6: решение задач
 
 ## Задача 1
-**Дано:** $(X > 2) \vee (X < 2) \vee (X > 4)$, $X = 4$.
-**Решение:**
+**пример:** $(X > 2) \vee (X < 2) \vee (X > 4)$, $X = 4$.
 - $X > 2 \Rightarrow 4 > 2 \Rightarrow \text{истина}$;
 - $X < 2 \Rightarrow 4 < 2 \Rightarrow \text{ложь}$;
 - $X > 4 \Rightarrow 4 > 4 \Rightarrow \text{ложь}$;
-- $\text{истина} \vee \text{ложь} \vee \text{ложь} = \text{истина}$.
-**Ответ:** $1$.
+- $\text{истина} + \text{ложь} + \text{ложь} = \text{истина}$.
+**Ответ:** истина
 
 ---
 
