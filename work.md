@@ -12,19 +12,15 @@
 ---
 
 ## Задача 2
-![alt text](number2.png)
+![alt text](image-1.png)
 - A = Если прямая *l* перпендикулярна двум прямым *a* и *b*
-- B = Если прямая *l* перпендикулярна  лежащим в плоскости π, и прямые *a* и *b* не параллельны
-- С = прямая *l* перпендикулярна всякой прямой *c*
-- D = прямая *l* перпендикулярна лежащей в плоскости π
+- B = Если прямая *l* перпендикулярна лежащим в плоскости π, и неперпендикулярная некоторой прямой *c*, лежащей в этой же плоскости
+- С = прямые *a* и *b* параллельны
 ---
 
 ## Задача 3
-**Дано:** $(Y \vee Z \leftrightarrow X) \vee ((X \rightarrow Y) \vee Z)$.
-**Решение:**
-- $X \rightarrow Y = \overline{X} \vee Y$;
-- $(\overline{X} \vee Y) \vee Z = \overline{X} \vee Y \vee Z$;
-- $Y \vee Z \leftrightarrow X = ((Y \vee Z) \wedge X) \vee (\overline{Y} \wedge \overline{Z} \wedge \overline{X})$;
-- Итоговое выражение: $((Y \vee Z) \wedge X) \vee (\overline{Y} \wedge \overline{Z} \wedge \overline{X}) \vee \overline{X} \vee Y \vee Z$;
-- $\overline{X} \vee Y \vee Z$ делает выражение истинным при всех значениях переменных.
-**Ответ:** $1$.
+![alt text](image-3.png)
+![alt text](image-2.png)
+
+https://www.falstad.com/s.py?s=NhR0pm электронная схема
+![alt text](image.png)
